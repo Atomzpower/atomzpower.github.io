@@ -1,0 +1,109 @@
+* {
+    font-family: 'Lato', sans-serif;
+  }
+    
+  .navbar-toggler {
+    padding: 0.25rem 0.75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: #1f1d1dcf !important;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+  }
+  a.nav-menu2 {
+    color: #000 !important;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  /*social media icons*/
+  .socialmedia-icon {
+    list-style-type: none;
+    display: inline-block;
+    width: 28px;
+    padding: 2px;
+  } 
+
+  .powering-future {
+      background-color: #ED1C24;
+      color: #fff;          
+  }
+
+  .powering-future-content {
+      width: 756px;
+      margin: 0 auto;
+  }
+
+  .smart-energy-monitor {
+    position: relative;
+  }
+
+  .content a {
+    color: #000000;
+  }
+
+  .content {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    right: 40px;
+    color: #fff;
+  }
+
+  .footer-menu {
+    display: inline-block;
+    list-style-type: none;
+  }
+  
+  .footer-menu li {
+    display: inline-block;
+  }
+  .footer-menu li a{
+    color: #fff;
+    padding-right: 0.5rem;
+    padding-left: 1rem;
+  }
+  .footer-menu-nav:after {
+    content: "";
+    border-right: 2px solid #fff;
+    padding-right: 13px;
+  }
+  .footer-menu-nav.login:after {
+    border-right: none !important;
+    padding-right: 0;
+  }
+  
+  @media (max-width: 768px) {
+    .navbar-toggler-right {
+      padding-right: 0px;
+    }
+    .desktop-view {
+      display: none;
+    }
+  
+    .top-nav {
+      position: sticky;
+    }
+    .large-screen {
+      display: none;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .small-screen {
+      display: none;
+    }
+    a.login:after {
+      border-right: none !important;
+      padding-right: 0;
+    }
+    a.nav-menu2:after {
+      content: "";
+      border-right: 2px solid #000;
+      padding-right: 13px;
+    }
+    .mob-view {
+      display: none;
+    }
+  }
+  
