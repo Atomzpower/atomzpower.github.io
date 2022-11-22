@@ -1,130 +1,129 @@
 * {
-    font-family: 'Lato', sans-serif;
-  }
-    
-  .navbar-toggler {
-    padding: 0.25rem 0.75rem;
-    font-size: 1.25rem;
-    line-height: 1;
-    background-color: #1f1d1dcf !important;
-    border: 1px solid transparent;
-    border-radius: 0.25rem;
-  }
-  a.nav-menu2 {
-    color: #000 !important;
-    font-size: 14px;
-    font-weight: bold;
-  }
+  font-family: 'Lato', sans-serif;
+}
   
-  /*social media icons*/
-  .socialmedia-icon {
-    list-style-type: none;
-    display: inline-block;
-    width: 28px;
-    padding: 2px;
-  } 
+.navbar-toggler {
+  padding: 0.25rem 0.75rem;
+  font-size: 1.25rem;
+  line-height: 1;
+  background-color: #1f1d1dcf !important;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+}
+a.nav-menu2 {
+  color: #000 !important;
+  font-size: 14px;
+  font-weight: bold;
+}
 
-  .powering-future {
-      background-color: #ED1C24;
-      color: #fff;          
-  }
+/*social media icons*/
+.socialmedia-icon {
+  list-style-type: none;
+  display: inline-block;
+  width: 28px;
+  padding: 2px;
+} 
 
-  .powering-future-content {
-      width: 756px;
-      margin: 0 auto;
-  }
+.the-technology li,.energy-solution p,.powering-future p {
+  font-size: 22px;
+}
+.powering-future-content {
+  line-height: 1.5rem;
+}
 
-  .smart-energy-monitor {
-    position: relative;
-  }
+.powering-future {
+    background-color: #EBECEC;
+    /* color: #fff;           */
+}
 
-  .content a {
-    color: #000000;
-  }
-
-  .content {
-    position: absolute;
-    top: 50%;
-    transform: translate(0, -50%);
-    right: 40px;
-    color: #fff;
-  }
-
-  .footer-menu {
-    display: inline-block;
-    list-style-type: none;
-  }
+.download-link {
+  color:#E31E30;
+  text-decoration:none;
+}
+.download-link:hover {
   
-  .footer-menu li {
-    display: inline-block;
+  color:#E31E30;
+}
+
+.content a {
+  color: #000000;
+}
+
+.content {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  right: 40px;
+  color: #fff;
+}
+
+.footer-menu {
+  display: inline-block;
+  list-style-type: none;
+}
+
+.footer-menu li {
+  display: inline-block;
+}
+.footer-menu li a{
+  color: #fff;
+  padding-right: 0.5rem;
+  padding-left: 1rem;
+}
+.footer-menu-nav:after {
+  content: "";
+  border-right: 2px solid #fff;
+  padding-right: 13px;
+}
+.footer-menu-nav.login:after {
+  border-right: none !important;
+  padding-right: 0;
+}
+.term-condition li {
+  list-style-type: none;
+  display: inline-block;
+}
+.term-condition li a{
+  padding: 0 10px;
+  border-right: 1px solid #fff;
+  font-size: 12.5px;
+  color: #fff;  
+ }
+ .term-condition li:last-child a {
+  border-right: none;
+ } 
+
+@media (max-width: 768px) {
+  .navbar-toggler-right {
+    padding-right: 0px;
   }
-  .footer-menu li a{
-    color: #fff;
-    padding-right: 0.5rem;
-    padding-left: 1rem;
+  .desktop-view {
+    display: none;
   }
-  .footer-menu-nav:after {
-    content: "";
-    border-right: 2px solid #fff;
-    padding-right: 13px;
+
+  .top-nav {
+    position: sticky;
   }
-  .footer-menu-nav.login:after {
+  .large-screen {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .small-screen {
+    display: none;
+  }
+  a.login:after {
     border-right: none !important;
     padding-right: 0;
   }
-  .term-condition li {
-    list-style-type: none;
-    display: inline-block;        
+  a.nav-menu2:after {
+    content: "";
+    border-right: 2px solid #000;
+    padding-right: 13px;
   }
-  .term-condition li a {
-      padding: 0 10px;
-      border-right: 1px solid #fff;
+  .mob-view {
+    display: none;
   }
-  .term-condition li:last-child a{
-      border-right: none;
-  }
-  ul.term-condition li a {
-    font-size: 12.5px;
-    color: #fff;
-  }
-  
-  @media (max-width: 767px) {
-    .navbar-toggler-right {
-      padding-right: 0px;
-    }
-    .desktop-view {
-      display: none;
-    }
-  
-    .top-nav {
-      position: sticky;
-    }
-    .large-screen {
-      display: none;
-    }
-    .footer .text-right{
-      text-align: center !important;
-    }
-    .float-right {
-        float: none!important;
-    }
-  }
-  
-  @media (min-width: 768px) {
-    .small-screen {
-      display: none;
-    }
-    a.login:after {
-      border-right: none !important;
-      padding-right: 0;
-    }
-    a.nav-menu2:after {
-      content: "";
-      border-right: 2px solid #000;
-      padding-right: 13px;
-    }
-    .mob-view {
-      display: none;
-    }
-  }
-  
+}
+
